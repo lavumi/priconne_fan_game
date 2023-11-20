@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+<meta charset="UTF-8" name="viewport" content="width=device-width,user-scalable=no">
+<title>プリコネ ファン ゲーム♡</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        /*background: linear-gradient(*/
+        /*        45deg,*/
+        /*        white 0%,*/
+        /*        white 49%,*/
+        /*        black 49%,*/
+        /*        black 51%,*/
+        /*        white 51%,*/
+        /*        white 100%*/
+        /*) repeat;*/
+        /*background-size: 20px 20px;*/
+        align-items: center;
+        height: 100%;
+    }
+    canvas {
+        background-color: white;
+        width: 100%;
+        max-width: 1024px;
+        height: auto;
+        padding: 0;
+        margin:auto;
+        display: block;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    #mobile-button {
+        margin : 50px;
+        color: #fff; /* 텍스트 색상 지정 */
+        width : 100px;
+        height: 100px;
+        border-radius: 50%; /* 50%로 설정하여 동그랗게 만듭니다. */
+        padding: 20px; /* 버튼 내부 여백 설정 (상하 10px, 좌우 20px) */
+        font-size: 25px;
+        text-align: center;
+    }
+
+</style>
+
+<body>
+<canvas id="canvas"></canvas>
+<div class="container valign-wrapper">
+    <a id="mobile-button" class="hide-on-large-only waves-effect waves-light btn-large red center-align" >Jump</a>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="assets/js/render.min.js"></script>
+<script src="assets/js/main.min.js"></script>
+
+
+</body>
+
+
+</html>
+
+
